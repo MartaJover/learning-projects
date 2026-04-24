@@ -1,0 +1,31 @@
+name: 'precygrap-web'
+
+services:
+  db:
+    image: postgres:16
+    container_name: db-service
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER_FILE:     /run/secrets/postgres_user
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+      POSTGRES_DB:            mydatabase
+    secrets:
+      - postgres_user
+      - postgres_password
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      # mount your secrets files (Compose-only, no Swarm)
+      - ./secrets/postgres_user.txt:/run/secrets/postgres_user:ro
+      - ./secrets/postgres_password.txt:/run/secrets/postgres_password:ro
+      # mount the init script:
+      - ./init-user.sql:/docker-entrypoint-initdb.d/init-user.sql:ro
+
+secrets:
+  postgres_user:
+    file: ./secrets/postgres_user.txt
+  postgres_password:
+    file: ./secrets/postgres_password.txt
+
+volumes:
+  db_data:

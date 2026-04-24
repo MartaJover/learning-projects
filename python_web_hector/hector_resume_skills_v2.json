@@ -1,0 +1,222 @@
+{
+  "projects": [
+    {
+      "project_name": "Data Migration & Scaling",
+      "company": "E&C Consultants",
+      "period": "Feb 2020 - May 2021",
+      "description": "System migration from legacy to modern data stores. Built Python and SQL ETLs, automated reporting with VBA and designed scalable architectures.",
+      "skills": {
+        "Python": 4,
+        "SQL": 4,
+        "VBA": 3,
+        "ETL": 4,
+        "Data Engineering": 4,
+        "Communication": 4
+      },
+      "start_year": 2020,
+      "end_year": 2021
+    },
+    {
+      "project_name": "E-commerce AI Plugins",
+      "company": "CleverPy",
+      "period": "Apr 2017 - Dec 2017",
+      "description": "WordPress plugins for recommenders, churn detectors and customer segmentation.",
+      "skills": {
+        "Python": 4,
+        "Machine Learning": 4,
+        "Recommender Systems": 3,
+        "Customer Segmentation": 3
+      },
+      "start_year": 2017,
+      "end_year": 2017
+    },
+    {
+      "project_name": "Bus Predictive Engine",
+      "company": "Synergica",
+      "period": "Jun 2021 - Mar 2022",
+      "description": "Predictive engine for Asturias public buses. Scaled to 820 buses, anomaly detection and algorithm orchestrator for multimodal transport.",
+      "skills": {
+        "Python": 5,
+        "Time Series Analysis": 4,
+        "LSTM": 4,
+        "Monitoring": 3,
+        "Algorithm Orchestration": 3
+      },
+      "start_year": 2021,
+      "end_year": 2022
+    },
+    {
+      "project_name": "Energy Consumption Forecasting",
+      "company": "Synergica",
+      "period": "Jun 2021 - Mar 2022",
+      "description": "LSTM energy forecasting with MAPE below 2 percent.",
+      "skills": {
+        "Python": 5,
+        "LSTM": 4,
+        "Machine Learning": 4,
+        "Forecasting": 4
+      },
+      "start_year": 2021,
+      "end_year": 2022
+    },
+    {
+      "project_name": "INTEGRACLOUD Suite",
+      "company": "MySphera",
+      "period": "Mar 2022 - Present",
+      "description": "Suite for real time national indicators and model management. Architected 50 plus data warehouses and scalable ETL workflows.",
+      "skills": {
+        "Data Warehousing": 5,
+        "Real-time Systems": 4,
+        "Python": 4,
+        "ETL": 4,
+        "Database Design": 4,
+        "Strategy": 4
+      },
+      "start_year": 2022,
+      "end_year": null
+    },
+    {
+      "project_name": "LLM Banking System",
+      "company": "Agile Impacts",
+      "period": "Mar 2023 - Jul 2023",
+      "description": "Collaborative LLM system for banking. Reduced memo generation time from months to weeks.",
+      "skills": {
+        "Large Language Models": 5,
+        "Python": 4,
+        "Machine Learning": 4,
+        "Banking Analytics": 3,
+        "Leadership": 4
+      },
+      "start_year": 2023,
+      "end_year": 2023
+    },
+    {
+      "project_name": "FAITH & vitana.io",
+      "company": "Health R&D",
+      "period": "Various",
+      "description": "Product owner for vitana.io and contributor to FAITH. High trust AI models and cross functional teams.",
+      "skills": {
+        "AI Model Development": 5,
+        "Project Management": 4,
+        "Data Strategy": 4,
+        "High trust AI": 5
+      },
+      "start_year": 2022,
+      "end_year": 2023
+    },
+    {
+      "project_name": "GATEKEEPER & Frailty Prediction",
+      "company": "Activage Ageing Association",
+      "period": "Mar 2022 - Jul 2025",
+      "description": "Data strategy and governance for Spanish pilots. Semi supervised frailty prediction and FHIR synthetic data generator.",
+      "skills": {
+        "Data Strategy": 4,
+        "Governance": 4,
+        "Frailty Prediction": 4,
+        "Semi supervised Learning": 4,
+        "Synthetic Data Generation": 3
+      },
+      "start_year": 2022,
+      "end_year": 2025
+    },
+    {
+      "project_name": "AI & Data Consulting",
+      "company": "Self employed",
+      "period": "Jun 2023 - Present",
+      "description": "Mentorships, PoCs and guidance for SMEs on their data journey.",
+      "skills": {
+        "Consulting": 5,
+        "Data Strategy": 4,
+        "Mentorship": 4,
+        "Proof of Concept": 4,
+        "Communication": 4
+      },
+      "start_year": 2023,
+      "end_year": null
+    }
+  ],
+  "companies": [
+    {
+      "company_name": "E&C Consultants",
+      "skills": {
+        "Python": 4,
+        "SQL": 4,
+        "VBA": 3,
+        "ETL": 4,
+        "Data Engineering": 4,
+        "Communication": 4
+      }
+    },
+    {
+      "company_name": "CleverPy",
+      "skills": {
+        "Python": 4,
+        "Machine Learning": 4,
+        "Recommender Systems": 3,
+        "Customer Segmentation": 3
+      }
+    },
+    {
+      "company_name": "Synergica",
+      "skills": {
+        "Python": 10,
+        "Time Series Analysis": 4,
+        "LSTM": 8,
+        "Monitoring": 3,
+        "Algorithm Orchestration": 3,
+        "Machine Learning": 4,
+        "Forecasting": 4
+      }
+    },
+    {
+      "company_name": "MySphera",
+      "skills": {
+        "Data Warehousing": 5,
+        "Real-time Systems": 4,
+        "Python": 4,
+        "ETL": 4,
+        "Database Design": 4,
+        "Strategy": 4
+      }
+    },
+    {
+      "company_name": "Agile Impacts",
+      "skills": {
+        "Large Language Models": 5,
+        "Python": 4,
+        "Machine Learning": 4,
+        "Banking Analytics": 3,
+        "Leadership": 4
+      }
+    },
+    {
+      "company_name": "Health R&D",
+      "skills": {
+        "AI Model Development": 5,
+        "Project Management": 4,
+        "Data Strategy": 4,
+        "High trust AI": 5
+      }
+    },
+    {
+      "company_name": "Activage Ageing Association",
+      "skills": {
+        "Data Strategy": 4,
+        "Governance": 4,
+        "Frailty Prediction": 4,
+        "Semi supervised Learning": 4,
+        "Synthetic Data Generation": 3
+      }
+    },
+    {
+      "company_name": "Self employed",
+      "skills": {
+        "Consulting": 5,
+        "Data Strategy": 4,
+        "Mentorship": 4,
+        "Proof of Concept": 4,
+        "Communication": 4
+      }
+    }
+  ]
+}
